@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-flow">
+      <div
+        class="display-4"
+        style="
+          background-color: rgb(235, 186, 40);
+          font-style: normal;
+          font-weight: bolder;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+        "
+      >
+        Student Explore
+      </div>
+      <ul class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="https://www.mashupstack.com">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="https://www.mashupstack.com/list-courses">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">My courses</li>
+      </ul>
+    </div>
+    <div class="container">
+      <div style="font-size: x-large; font-weight: 800">
+        Welcome to Dashboard
+      </div>
+      <br />
+      <button
+        type="button"
+        class="btn btn-warning btn-outline-success btn-info"
+        style="
+          font-style: italic;
+          font-family: serif;
+          font-weight: bold;
+          margin-left: 0%;
+        "
+      >
+        Start New course
+      </button>
+      <br />
+      <br />
+
+      <h3>MY PROGRESS <span class="badge badge-dark">3 Courses</span></h3>
+      <br />
+
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+          style="width: 70%"
+        >
+          70%
+        </div>
+      </div>
+      <ul class="pagination fixed-bottom justify-content-center">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
