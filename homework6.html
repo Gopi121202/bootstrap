@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback form</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="containerflow">
+      <div
+        class="display-4"
+        style="
+          background-color: navajowhite;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-weight: lighter;
+          font-style: italic;
+          text-align: center;
+          color: darkgreen;
+        "
+      >
+        Taste Bakers
+      </div>
+    </div>
+    <div
+      class="container"
+      style="
+        color: darkgreen;
+        font-size: medium;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+      "
+    >
+    <br>
+      <h4 style="font-weight: bolder; color: navajowhite; text-align: center">
+        Feedback Form
+      </h3>
+      <div class="form-group">
+        <label class="mt-5" for="name">Customer Name:</label>
+        <input
+          type="text"
+          clas="form-control"
+          id="name"
+          placeholder="Enter your name"
+          name="name"
+        />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <div class="input-group-append">
+          <input type="text" class="form control" placeholder="Your Email" />
+          <div class="input-group-append">
+            <span class="input-group-text" style="text-transform: lowercase"
+              >@example.com</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Feedback">Feedback:</label>
+        <br />
+        <textarea class="form-control" id="Feedback"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="Options">Contact Method:</label>
+        <br />
+        <select class="form-control" id="Options" style="width: 200px">
+          <option>Email</option>
+          <option>Phone Number</option>
+        </select>
+      </div>
+      <div class="form-check-inline mr-5">
+        <label class="form-check-label mr-2">Satisfaction Level:</label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />1
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />2
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />3
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />4
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />5
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />6
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />7
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />8
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />9
+        </label>
+        <label class="form-check-label mr-2">
+          <input type="radio" class="form-check-input" name="rate" />10
+        </label>
+      </div>
+
+      <div class="dropdown mt-3">
+        <button
+          type="button"
+          class="btn btn-success dropdown-toggle"
+          data-toggle="dropdown"
+            style="width: 200px; background-color: darkgreen;"
+        >
+          Type of Order
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Cake</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Cookies</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Pastries</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </div>
+      <button type="submit" class="btn mt-3 mb-5 "style="background-color: darkgreen; color: white;width: 100px;">
+        Submit
+    </div>
+  </body>
+</html>
